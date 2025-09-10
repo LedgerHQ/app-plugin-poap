@@ -21,11 +21,9 @@ const simOptions = {
 
 const Resolve = require('path').resolve;
 
-const APP_PATH_NANOS = Resolve('elfs/ethereum_nanos.elf');
 const APP_PATH_NANOX = Resolve('elfs/ethereum_nanox.elf');
 const APP_PATH_NANOSP = Resolve('elfs/ethereum_nanosp.elf');
 
-const PLUGIN_LIB_NANOS = { 'Poap': Resolve('elfs/plugin_nanos.elf') };
 const PLUGIN_LIB_NANOX = { 'Poap': Resolve('elfs/plugin_nanox.elf') };
 const PLUGIN_LIB_NANOSP = { 'Poap': Resolve('elfs/plugin_nanosp.elf') };
 
